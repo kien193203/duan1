@@ -107,6 +107,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
 
+    <Button
+        android:id="@+id/btn_ph25350"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tung"
+        android:onClick="startPH25350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/get"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="@+id/get"
+        app:layout_constraintTop_toBottomOf="@+id/get"
+        app:layout_constraintVertical_bias=".1" />
+
     <GridView
         android:id="@+id/gridView"
         android:layout_width="match_parent"
