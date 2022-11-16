@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/ic_baseline_collections_24"
+        />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="410dp"
+        android:layout_height="420dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:text="Back"
+            android:background="@drawable/layout_duongvien"
+
+
+            />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="205dp"
+            android:layout_height="60dp"
+            android:text="UPDATE"
+            android:background="@drawable/layout_duongvien"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
