@@ -185,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
         View v = getLayoutInflater().inflate(R.layout.dialog_custom, null);
         builder.setView(v);
         btnDialog = (AppCompatButton) v.findViewById(R.id.btn_y_dialog_confirm_delete);
-        btnDialog.setOnClickListener(v1 -> Toast.makeText(this, "Ok", Toast.LENGTH_SHORT).show());
+        btnDialog.setOnClickListener(v1 -> Toast.makeText(this, "Ok đã fix xong", Toast.LENGTH_SHORT).show());
 
         Dialog dialog = builder.create();
         dialog.show();
